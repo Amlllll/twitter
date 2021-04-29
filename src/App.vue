@@ -41,7 +41,7 @@
           />
           <div class="ml-4 hidden lg:block">
             <p class="text-sm font-bold leading-tight">Amal Elsaeed</p>
-            <p class="text-sm leading-tight">@amal281294</p>
+            <p class="text-sm leading-tight">@amalelsaeed</p>
           </div>
           <i class="fas fa-angle-down ml-auto text-lg hidden lg:block"></i>
         </button>
@@ -74,7 +74,7 @@
             @click="dropdown = false"
             class="w-full text-left hover:bg-lightest border-t border-lighter text-sm p-3"
           >
-            Log out amal281294
+            Log out @amalelsaeed
           </button>
         </div>
       </div>
@@ -105,12 +105,12 @@
       <div class="flex flex-col-reverse">
         <div  v-for="tweet in tweets" :key="tweet.content" class="w-full p-4 border-b hover:bg-lighter flex">
           <div class="flex-none mr-4">
-            <img src="./assets/p1.jpg" class="h-12 w-12 rounded-full flex-none"/>
+            <img src="./assets/amal.jpg" class="h-12 w-12 rounded-full flex-none"/>
           </div>
           <div class="w-full">
             <div class="flex items-center w-full">
-              <p class="font-semibold"> Steph Dietz </p>
-              <p class="text-sm text-dark ml-2"> @SaaSyEth </p>
+              <p class="font-semibold"> Amal Elsaeed</p>
+              <p class="text-sm text-dark ml-2"> @amalelsaeed </p>
               <p class="text-sm text-dark ml-2"> 1 sec </p>
               <i class="fas fa-angle-down text-dark ml-auto"></i>
             </div>
